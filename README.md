@@ -1,9 +1,11 @@
 # Segmentation-of-Adults
 
-This project explores hidden patterns in U.S. Census data using unsupervised learning. By applying k-means clustering to the Adult dataset (from the UCI Machine Learning Repository), we uncover latent socioeconomic groups without using income as a label. Our analysis segments the adult population into distinct clusters based on demographic, educational, and employment features, and later relates them to income levels to assess socioeconomic stratification.
+This project explores hidden patterns in the different groups of adults in society using unsupervised learning. By applying k-means clustering to the Adult dataset (from the UCI Machine Learning Repository), we uncover latent socioeconomic groups without using income as a label. Our analysis segments the adult population into distinct clusters based on demographic, educational, and employment features, and later relates them to income levels to assess socioeconomic stratification.
 
 ## Research Question
-> **"What distinct groups of adults exist in the dataset based on their demographic, educational, and work characteristics?"**
+> **1. What distinct groups of adults exist in the dataset based on their demographic, educational, and work characteristics?**
+>
+> **2. What are the income status of these groups of adults?**
 
 Understanding these segments can provide insight for:
 
@@ -27,6 +29,10 @@ Understanding these segments can provide insight for:
 3. Elbow Method to Determine Optimal k
 4. Fit Final Model and Assign Clusters
 5. Cluster Interpretation
+6. PCA Visualization
+7. Compare Cluster Distribution with Income to Assess Socioeconomic Patterns
+8. Analyze Clustering Performance
+9. Conclusion and Insights
 
 ## Acknowledgements/Reference
 This dataset is found in the UCI machine learning repository
@@ -34,7 +40,4 @@ This dataset is found in the UCI machine learning repository
 - https://www.cs.toronto.edu/~delve/data/adult/desc.html
 There are also detailed description of the dataset in this link
 - https://www.cs.toronto.edu/~delve/data/adult/adultDetail.html
-7. PCA Visualization
-8. Compare Cluster Distribution with Income to Assess Socioeconomic Patterns
-9. Analyze Clustering Performance
-10. Conclusion and Insights
+
